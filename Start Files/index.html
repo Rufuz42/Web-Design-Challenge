@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Bootstrap Visualization Dashboard</title>
+    <title>Homepage</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
@@ -57,7 +57,46 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
+    <div class="home">	
+      <div class="row">
+          <div class="col-lg-5 col-md-12">
+              <div class="box">
+                  <h1 class="title">Summary: Latitude vs. X</h1>
+                  <hr class="light">
+                  <img alt="CityLatvsMaxTemp" src="images/Fig1.png" class="visualization rounded float-left">
+                  <p>The purpose of this project was to analyze how the weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+              </div>
+                
+          </div>
+          <div class="col-lg-7 col-md-12">
+              <div class="box">
+                  <h3 class="title">Visualizations</h3>
+                  <hr class="light">
+                  <div class="container">
+                      <div class="row" >
+                          <div class="col-md-8">
+                              <a href="temp.html"><img alt="CityLatvsMaxTemp" src="images/Fig1.png" class="image-fluid"></a>
+                          </div>
+                          <div class="col-md-4">
+                              <a href="humidity.html"><img alt="Humidity" src="images/Fig2.png" class="image-fluid"></a>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-8">
+                              <a href="cloudiness.html"><img alt="Cloudiness" src="images/Fig3.png" class="image-fluid"></a>
+                          </div>
+                          <div class="col-md-4">
+                              <a href="wind.html"><img alt="Wind Speed" src="images/Fig4.png" class="image-fluid"></a>
+                          </div>
+                      </div>
+                  </div>
+  
+              </div>
+                  
+          </div>
+      </div>
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->

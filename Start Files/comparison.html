@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Bootstrap Visualization Dashboard</title>
+    <title>Comparison</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
@@ -57,7 +57,50 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
+    <div class="comparison">
+      <div class="row">
+          <div class="box">
+            <style>
+              h3 {text-align: center;}
+              h4 {text-align: center;}
+              h5 {text-align: center;}
+              p {text-align: center;}
+            </style>
+              <h3 class="title">Comparison: Latitude vs X</h3>
+              <hr>
+              <p>Click any plot to get an in-depth analysis.</p>
+              <div class="container" style="padding-bottom: 10px;">
+                  <div class="row">
+                      <div class="col-lg-8" style="padding-bottom: 20px;">
+                          <div class="title">vs. Max Temperature</div>
+                          <a href="temp.html">
+                              <img class="panel" src="images/Fig1.png" alt="temp">
+                          </a>
+                      </div>
+                      <div class="col-lg-4" style="padding-bottom: 20px;">
+                          <div class="title">vs. Humidity</div>
+                          <a href="humidity.html">
+                              <img class="panel" src="images/Fig2.png" alt="humidity">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-8">
+                          <div class="title">vs. Cloudiness</div>
+                          <a href="cloudiness.html">
+                              <img class="panel" src="images/Fig3.png" alt="cloudiness">
+                          </a>
+                      </div>
+                      <div class="col-lg-4">
+                          <div class="title">vs. Wind Speed</div>
+                          <a href="wind.html">
+                              <img class="panel" src="images/Fig4.png" alt="wind">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
